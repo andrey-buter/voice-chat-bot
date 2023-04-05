@@ -13,10 +13,16 @@
 //        "./src/*",
 //      ],
     },
-
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true
   },
   "exclude": [
     "**/*.skip.ts",
-    "**/_*/*.ts"
+    "**/_*/*.ts",
+    "node_modules",
+    "./node_modules",
+    "./node_modules/*",
+    "./node_modules/telegraf/*",
+    "./node_modules/@types/node/index.d.ts",
   ]
 }
