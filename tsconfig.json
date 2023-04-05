@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "rootDir": "./src",
+    "outDir": "./build",
+    "esModuleInterop": true,
+//    "allowJs": true, // падает билд изи него
+    "strict": false,
+    "lib": ["es2021", "dom"],
+    "paths": {
+//      "@app/*": [
+//        "./src/*",
+//      ],
+    },
+
+  },
+  "exclude": [
+    "**/*.skip.ts",
+    "**/_*/*.ts"
+  ]
+}
